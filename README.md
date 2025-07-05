@@ -1,6 +1,6 @@
 ## 20.1 Capstone Exploratory Data Analysis
 
-This project contains the exploratory data analysis (EDA) for my capstone project in the Professional Certificate in Machine Learning and Artificial Intelligence cource from the University of California, Berkeley.  The goal of the project is to properly identify a person from their image using ML techniques.  It uses the celebrity-face-image-dataset data set from kaggle 
+This project contains the exploratory data analysis (EDA) for my capstone project in the Professional Certificate in Machine Learning and Artificial Intelligence cource from the University of California, Berkeley.  The goal of the project is to properly identify a person from their image using ML techniques.  It uses the celebrity-face-image-dataset data set from kaggle located here.  All work is in the EDA.ipynb file.
 
 The Python Image Library (PIL) was used to clean the data, such that all images are the same size with each having 3 channels of data (RGB).  The greyscale images have their channels duplicated.  All aspect ratios are corrected to the same size through cropping or blurring.  Finally, after reading in the images equalize the data set by dropping any oversampled celebrities.
 
